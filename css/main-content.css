@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section-1 {
+    background: #F1F1F1;
+    height: 1000px;
+}
+
+.section-1__content {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.buttons{
+    display: flex;
+}
+
+.btn-detail {
+  background: #c0c0c0;
+}
+
+.btn-addToCart {
+    background: #000;
+}
+
+.btn-detail,
+.btn-addToCart{
+    color: #FFF;
+    padding: .4rem;
+    font-size: 10px;
+}
