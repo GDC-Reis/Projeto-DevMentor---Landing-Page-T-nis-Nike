@@ -14,8 +14,18 @@ ul {
 
 .header_list{
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
+    cursor: pointer;
 }
+
+.header_list li {
+    transition: transform 0.3s ease-in-out;
+}
+
+.header_list li:hover {
+    transform: scale(1.2);
+}
+
 
 svg{
     width: 50px;

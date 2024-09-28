@@ -3,6 +3,11 @@ a{
     cursor: pointer;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
+
 .section-1 {
     background: #F1F1F1;
     height: 1000px;
@@ -34,4 +39,8 @@ a{
     color: #FFF;
     padding: .4rem;
     font-size: 10px;
+}
+
+.section-1__img{
+    padding: 1rem;
 }
